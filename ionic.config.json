@@ -1,0 +1,7 @@
+{
+  "name": "geolocation-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
