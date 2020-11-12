@@ -9,3 +9,7 @@ The method `getCurrentPosition` times out from the iOS native side if the user d
 ## Relevant Code
 
 Relevant code can be found in `/src/ExploreContainer.tsx`. For test purposes, the Geolocation `timeout` option has been set to 10 seconds.
+
+## Workaround
+
+A "workaround" is in place where the user can retry a failed attempt by providing a button that calls `Geolocation.getCurrentPosition`.
